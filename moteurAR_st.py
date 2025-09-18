@@ -92,18 +92,7 @@ with col2:
   </p>
 </div>
 """, unsafe_allow_html=True)
-st.markdown("""
-<div style="text-align: center; font-family: courier;">
-  <img src="D:\Docim\mok1.jpg" width="200" style="border-radius: 10px; margin-bottom: 15px;">
-  <p style="color: #3366FF; 
-            font-weight: bold; 
-            font-size: 20px; 
-            margin-top: 10px;
-            text-shadow: 1px 1px 2px rgba(rgba(0,0,0,0.1));">
-    Développé par: Hachemi Mokrane • Avril 2025
-  </p>
-</div>
-""", unsafe_allow_html=True)
+
 # Sélecteur de langue dans la sidebar
 with st.sidebar:
     st.session_state.current_language = st.radio(
