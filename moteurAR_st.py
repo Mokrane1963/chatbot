@@ -76,9 +76,8 @@ def format_rtl(text):
     return f'<div style="direction: rtl; text-align: right; unicode-bidi: embed; font-family: Arial, sans-serif;">{text}</div>'
 
 # Header avec logo et titre
-col1 = st.columns([1, 4])
-with col1:
-  
+
+
 
     st.title(t("title"))
     st.markdown("""
